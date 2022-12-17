@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className="bg-[#252525] flex  items-center justify-between  ">
       <div className="p-4 flex items-center gap-[100px] ">
       <AiOutlineMenu className="text-white text-[22px]  w-10 h-8 p-2  bg-[#65b643] sm:hidden"/>
-      <img src={logo} alt="" className=" w-40 ml-8 sm:ml-2  "/>
+      <img src={logo} alt="" className=" w-40   "/>
       
       </div>
       <div className="hidden sm:flex">
