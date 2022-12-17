@@ -16,6 +16,7 @@ const Navbar = () => {
       <img src={logo} alt="" className=" w-40   "/>
       
       </div>
+      
       <div className="hidden sm:flex">
         <ul className="text-white gap-5 flex ml-2">
           <div>

@@ -14,7 +14,7 @@ const Hero = () => {
         <span className="hidden sm:flex ml-8">
           Exclusively designed & developed for smartphones. tablets and PCs.
         </span>{" "}
-        <span className="ml-8 sm:hidden ">
+        <span className=" sm:hidden ">
           Exclusively designed & developed for smartphones. tablets and PCs.
         </span>
       </p>
