@@ -16,9 +16,9 @@ const SearchBar = () => {
           <input
             type="text"
             placeholder="Search.."
-            className=" rounded-full  mt-4 w-full bg-[#333333]"
+            className=" rounded-full  mt-4 w-full bg-[#333333] placeholder:pl-3 "
           />
-          <BiSearchAlt2 className="absolute right-0  bg-[#65b643] mt-4 w-6 h-6 rounded-r-full  " />
+          <BiSearchAlt2 className="absolute right-0  bg-[#65b643] mt-4 w-6 h-6 p-1 rounded-r-full  " />
         </div>
       </div>
     </div>
