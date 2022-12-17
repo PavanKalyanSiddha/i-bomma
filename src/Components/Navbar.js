@@ -40,7 +40,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="hidden sm:flex md:mr-6 relative" >
-        <input type="text" placeholder="Search.." className="rounded-full text-gray-300 bg-[#333333]  right-3 w-full" />
+        <input type="text" placeholder="Search.." className="rounded-full text-gray-300 bg-[#333333]  right-3 w-full placeholder:pl-3" />
         <BiSearchAlt2 className="absolute right-0  rounded-r-full w-6 h-6 p-1 text-white bg-[#65b643]"/>
         </div>
         <BiSearchAlt2 className="sm:hidden     mr-5 mt-0.9  w-10 h-8 p-2 text-white bg-[#65b643]"/>
