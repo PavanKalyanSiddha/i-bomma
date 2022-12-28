@@ -8,37 +8,37 @@ import SearchBar from "./Components/SearchBar";
 import WebSeries from "./Components/WebSeries";
 
 
-
 function App() {
   return (
-    <div className="  bg-[#1d1d1d] h-full ">
-      {/* Navbar */}
-      <Navbar />
-      {/* Hero */}
-      <Hero />
-
-      {/* Cards */}
-      <Cards />
-
-      {/* SearchBar */}
-      <SearchBar />
-
-      {/* WebSeries */}
-      <WebSeries />
-      
-      {/* ForeignDub */}
-      <ForeignDub  />
-
-      {/* AddOns  */}
-      <AddOns />
-
-      {/* Footer */}
-      <Footer />
-      
+    <>
       
 
-    
-    </div>
+      <div className="  bg-[#1d1d1d] h-full ">
+        {/* Navbar */}
+        <Navbar />
+
+        {/* Hero */}
+        <Hero />
+
+        {/* Cards */}
+        <Cards />
+
+        {/* SearchBar */}
+        <SearchBar />
+
+        {/* WebSeries */}
+        <WebSeries />
+
+        {/* ForeignDub */}
+        <ForeignDub />
+
+        {/* AddOns  */}
+        <AddOns />
+
+        {/* Footer */}
+        <Footer />
+      </div>
+    </>
   );
 }
 
