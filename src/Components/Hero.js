@@ -4,7 +4,7 @@ import curvedlogo from "./Assets/curvedlogo.png";
 
 const Hero = () => {
   return (
-    <div className=" flex items-center justify-center flex-col font m-8   gap-4 ">
+    <div className=" flex items-center justify-center flex-col  m-8   gap-4 ">
       <h1 className="text-[30px] sm:text-[42px] text-white  ">
         Where Quality & Clarity Matters
       </h1>

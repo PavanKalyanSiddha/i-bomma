@@ -23,20 +23,20 @@ const Navbar = () => {
         <div>
           <Link to="/about" className="flex justify-center items-center gap-2" >
             <HiOutlineUserGroup className="text-[#65b643] " />
-            <Link to="/about" className="text-[14px] text-gray-300 hover:text-[16px] ">About</Link>
+            <Link to="/about" className="text-[14px] text-gray-300 hover:text-gray-100 ">About</Link>
           </Link>
         </div>
         <div>
           <Link to="/bugreport" className="flex justify-center items-center gap-2" >
           <AiFillBug className="text-[#65b643]" />
-            <Link to="/bugreport"  className="text-[14px] text-gray-300 hover:text-[16px]">Bug Report</Link>
+            <Link to="/bugreport"  className="text-[14px] text-gray-300 hover:text-gray-100">Bug Report</Link>
           </Link>
         </div>
         <div>
           <Link to="/contact" className="flex justify-center items-center gap-2" >
               <MdForwardToInbox className="text-[#65b643]" />
           
-            <Link to="/contact" className="text-[14px] text-gray-300 hover:text-[16px]">Contact</Link>
+            <Link to="/contact" className="text-[14px] text-gray-300 hover:text-gray-100">Contact</Link>
           </Link>
         </div>
       </ul>
